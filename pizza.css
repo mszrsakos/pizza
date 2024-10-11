@@ -1,0 +1,11 @@
+#fejlec{
+    background-image: url(../imgs/header.jpg);
+    height: 900px;
+    margin: auto;
+    background-position-x: -200px;
+    background-position-y: -200px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
