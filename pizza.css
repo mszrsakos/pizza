@@ -1,5 +1,6 @@
 #fejlec{
     background-image: url(../imgs/header.jpg);
+    background-size: cover;
     height: 900px;
     margin: auto;
     background-position-x: -200px;
