@@ -1,17 +1,18 @@
 body{
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    background-color: #222222;
 
 }
 #fejlec{
     background-image: url(../imgs/header.jpg);
-    height: 800px;
+    height: 850px;
     margin: auto;
-    margin-top: 0px;
+    margin-top: 0px ;
     padding-top: 0px;
-    background-position-x: -200px;
-    
+    background-position-x: -250px;
     background-position-y: -200px;
+    background-position: center;
 }
 h1{
     font-family: "Agdasima", sans-serif;
@@ -22,7 +23,7 @@ h1{
 }
 .agdasima-regular {
     font-family: "Agdasima", sans-serif;
-    font-weight: 400;
+    font-weight: 200;
     font-style: normal;
   }
   
@@ -31,3 +32,18 @@ h1{
     font-weight: 700;
     font-style: normal;
   }
+#tortenetunk, p{
+    color: white;
+    text-align: justify;
+}
+#tortenetunk, h3{
+    color: white;
+    float: left;
+}
+#tortenetunk, h1,h3{
+    color: white;
+    float: left;
+}
+#tortenetunk{
+    padding: 50px
+}
