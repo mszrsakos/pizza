@@ -5,7 +5,7 @@ body{
 
 }
 #fejlec{
-    background-image: url(../imgs/header.jpg);
+    background-image: url(./imgs/header.jpg);
     height: 850px;
     margin: auto;
     margin-top: 0px ;
@@ -46,4 +46,28 @@ h1{
 }
 #tortenetunk{
     padding: 50px
+}
+li{
+    display:inline;
+    float: right;
+    color: white;
+    padding: 5px;
+    font-family: "Agdasima", sans-serif;
+    
+}
+ul{
+    padding-right: 30px;
+    padding-top: 40px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:active{
+    font-weight: bold;
+}
+#foglalj{
+    text-align: center;
+    font-weight: bold;
+    font-family: "Agdasima", sans-serif;
 }
