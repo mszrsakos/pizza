@@ -2,6 +2,7 @@ body{
     margin: 0px 0px;
     padding: 0px 0px;
     background-color: #222222;
+    
 
 }
 #fejlec{
@@ -25,28 +26,33 @@ h1{
     font-family: "Agdasima", sans-serif;
     font-weight: 200;
     font-style: normal;
-  }
+}
   
-  .agdasima-bold {
+.agdasima-bold {
     font-family: "Agdasima", sans-serif;
     font-weight: 700;
     font-style: normal;
-  }
-#tortenetunk, p{
-    color: white;
-    text-align: justify;
-}
-#tortenetunk, h3{
-    color: white;
-    float: left;
-}
-#tortenetunk, h1,h3{
-    color: white;
-    float: left;
 }
 #tortenetunk{
-    padding: 50px
+    background-color: #222222;
+    text-align: right;
 }
+#tort_tartalom{
+    color: white;
+    font-family: "Agdasima", sans-serif;
+    width:200px;
+    height:40%;
+    float:right;
+}
+#foglalj{
+    color: white;
+    float: right;
+}
+h4{
+    color: grey;
+    
+}
+
 li{
     display:inline;
     float: right;
@@ -57,7 +63,7 @@ li{
 }
 ul{
     padding-right: 30px;
-    padding-top: 40px;
+    
 }
 a{
     text-decoration: none;
@@ -65,9 +71,5 @@ a{
 }
 a:active{
     font-weight: bold;
-}
-#foglalj{
-    text-align: center;
-    font-weight: bold;
-    font-family: "Agdasima", sans-serif;
+    
 }
