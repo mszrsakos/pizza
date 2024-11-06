@@ -34,6 +34,11 @@ body{
     font-weight: 700;
     font-style: normal;
 }
+.italiana-regular {
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 #tortenetunk{
     background-color: #222222;
     display: flex;
@@ -43,14 +48,14 @@ body{
 #tortenetunk h1{
     color: white;
     font-family: "Agdasima", sans-serif;
-
-
+    margin-bottom: 5px;
 }
 #tortcim{
     text-align: right;
     width: 35%;
     color: white;
     padding-top: 60px;
+
 }
 #tortszoveg{
     text-align: left;
@@ -61,7 +66,8 @@ body{
     padding-right: 300px;
     
 }
-#tortenetunk h4{
+#tortenetunk h3{
+    margin-top: 0px;
     color: grey;
     font-family: "Agdasima", sans-serif;
     display:block;
@@ -88,26 +94,29 @@ body{
 a{
     text-decoration: none;
     color: white;
+
 }
 a:active{
     font-weight: bold;
 }
 #menu{
     background-color: black;
-    height: 400px;
+    height: 350px;
 }
 #menucim h1{
     color: white;
     text-align: center;
     font-family: "Agdasima", sans-serif;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     font-weight: normal;
     padding-top: 50px;
+    margin-bottom: 5px;
 }
 #menu h3{
     color:grey;
     text-align: center;
     font-family: "Agdasima", sans-serif;
+    margin-top: 0px;
 }
 #menu p{
     color: white;
@@ -117,9 +126,32 @@ a:active{
     opacity: 85%;
 }
 #menutart li{
-    color: white  
+    background-color: black;
+    color: white;
+    margin: auto 10px;
+    border:1px solid white;
+    padding: 10px 40px 10px 40px;
+    font-family: "Agdasima", sans-serif;
+    list-style-type:none ;
+    
 }
 #menutart ul{
-    color: white
-    
+    justify-content: center;
+    display: flex;
+}
+#specialitas h1{
+    color: white;
+    text-align: center;
+    font-family: "Agdasima", sans-serif;
+    letter-spacing: 2px;
+    font-weight: normal;
+    margin-bottom: 5px;
+
+}
+#specialitas h3{
+    color:grey;
+    text-align: center;
+    font-family: "Agdasima", sans-serif;
+    justify-content: center;
+    margin-top: 0px;
 }
