@@ -100,7 +100,7 @@ a:active{
     font-weight: bold;
 }
 #menu{
-    background-color: black;
+    background-color: #101010;
     height: 350px;
 }
 #menucim h1{
@@ -126,7 +126,7 @@ a:active{
     opacity: 85%;
 }
 #menutart li{
-    background-color: black;
+    background-color: #101010;
     color: white;
     margin: auto 10px;
     border:1px solid white;
@@ -154,4 +154,35 @@ a:active{
     font-family: "Agdasima", sans-serif;
     justify-content: center;
     margin-top: 0px;
+}
+#nyit_tart{
+    background-color: #101010;
+    margin: 0px; 
+    
+}
+#nyit_tart p {
+    margin-bottom: 10px;
+    color:white;
+    text-transform: uppercase;
+    font-family: "Agdasima", sans-serif;
+    font-size: large;
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+}
+#nyit_tart hr{
+    width: 20px;
+}
+#bal{
+
+    color: white
+}
+footer{
+    background-color: #101010;
+    color: white;
+    text-align: center;
+}
+footer hr{
+    width: 800px;
+    margin: auto;
 }
