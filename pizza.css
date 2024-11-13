@@ -157,25 +157,30 @@ a:active{
 }
 #nyit_tart{
     background-color: #101010;
-    margin: 0px; 
     
 }
 #nyit_tart p {
     margin-bottom: 10px;
     color:white;
-    text-transform: uppercase;
     font-family: "Agdasima", sans-serif;
     font-size: large;
-    text-align: center;
+    text-align: left;
     margin: auto;
+    margin-left: 520px;
     width: fit-content;
+    
 }
 #nyit_tart hr{
-    width: 20px;
+    width: 250px;
+    margin: auto;
+
 }
 #bal{
+    float: left ;
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
 
-    color: white
 }
 footer{
     background-color: #101010;
