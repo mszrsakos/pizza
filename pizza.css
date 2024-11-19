@@ -155,32 +155,45 @@ a:active{
     justify-content: center;
     margin-top: 0px;
 }
-#nyit_tart{
+.nyit_tart_keret{
     background-color: #101010;
+    display: flex;
+    justify-content: center;
+
     
 }
-#nyit_tart p {
-    margin-bottom: 10px;
+#kozep{
+    width: 60%;
+}
+#kozep p {
     color:white;
     font-family: "Agdasima", sans-serif;
     font-size: large;
     text-align: left;
     margin: auto;
-    margin-left: 520px;
     width: fit-content;
+    display: block;
+    margin: 5px 0px 5px 0px;
+    width:60%
+    
     
 }
-#nyit_tart hr{
+#kozep hr{
     width: 250px;
-    margin: auto;
-
+    margin: 0 40% 0 40%; 
 }
 #bal{
-    float: left ;
+    width: 25%;
     color: white;
-    margin-top: 20px;
-    margin-left: 20px;
+    text-align: right;
+}
+#jobb{
+    width: 25%;
+}
+#jobb p{
+    color: white;
 
+  
 }
 footer{
     background-color: #101010;
