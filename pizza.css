@@ -163,7 +163,9 @@ a:active{
     
 }
 #kozep{
-    width: 60%;
+    width: 30%;
+    margin: 0px 15px 0px 15px;
+    text-align: center;
 }
 #kozep p {
     color:white;
@@ -171,21 +173,57 @@ a:active{
     font-size: large;
     text-align: left;
     margin: auto;
-    width: fit-content;
     display: block;
     margin: 5px 0px 5px 0px;
-    width:60%
+    width: 300px;
     
     
 }
 #kozep hr{
     width: 250px;
     margin: 0 40% 0 40%; 
+    margin: 0 auto;
+}
+#nyitva{
+    width: 220px;
+    margin: auto 10px 0px 0px 0px;
+    font-weight: bold;
+    
+}
+#hetfo{
+    width: 220px;
+    margin:  auto;
+}
+#kedd{
+    width: 220px;
+    margin: 0 auto;
+}
+#szerda{
+    width: 220px;
+    margin: 0 auto;
+}
+#csutortok{
+    width: 220px;
+    margin: 0 auto;
+}
+#pentek{
+    width: 220px;
+    margin: 0 auto;
+}
+#szombat{
+    width: 220px;
+    margin: 0 auto;
+}
+#vasarnap{
+    width: 220px;
+    margin: 0 auto;
 }
 #bal{
     width: 25%;
     color: white;
     text-align: right;
+    font-size: large;
+    text-transform: uppercase;
 }
 #jobb{
     width: 25%;
@@ -211,8 +249,43 @@ footer hr{
     grid-gap: 45px;
     grid-row-gap: 50px;
 }
-.galeria_fo p{
+.galeria_fo{
     color:white;
+}
+#galp1{
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    text-align: center;
+}
+#galp2{
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    text-align: center;
+}
+#galp3{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 7;
+    grid-row-end: 7;
+    text-align: center;
+}
+#galp4{
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 7;
+    grid-row-end: 7;
+    text-align: center;
+}
+#galp5{
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 7;
+    grid-row-end: 7;
+    text-align: center;
 }
 .galeria{
     width: 100%;
