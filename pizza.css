@@ -159,8 +159,15 @@ a:active{
     background-color: #101010;
     display: flex;
     justify-content: center;
-
-    
+}
+.nyit_tart_keret #bal{
+    margin-top: 20px;
+}
+.nyit_tart_keret #kozep{
+    margin-top: 20px;
+}
+.nyit_tart_keret #jobb{
+    margin-top: 20px;
 }
 #kozep{
     width: 30%;
@@ -183,40 +190,59 @@ a:active{
     width: 250px;
     margin: 0 40% 0 40%; 
     margin: 0 auto;
+    
 }
 #nyitva{
     width: 220px;
-    margin: auto 10px 0px 0px 0px;
+    margin: auto;
     font-weight: bold;
-    
+    margin-top: 18px;
+    margin-bottom: 15px;
+    font-family: "Agdasima", sans-serif;
+    text-transform: uppercase;
 }
 #hetfo{
     width: 220px;
     margin:  auto;
+    font-family: "Agdasima", sans-serif;
+    color: grey;
 }
 #kedd{
     width: 220px;
     margin: 0 auto;
+    font-family: "Agdasima", sans-serif;
+    color: grey;
 }
 #szerda{
     width: 220px;
     margin: 0 auto;
+    font-family: "Agdasima", sans-serif;
+    color: grey;
 }
 #csutortok{
     width: 220px;
     margin: 0 auto;
+    font-family: "Agdasima", sans-serif;
+    color: grey;
 }
 #pentek{
     width: 220px;
     margin: 0 auto;
+    font-family: "Agdasima", sans-serif;
+    color: grey;
 }
-#szombat{
+#szombat{ 
     width: 220px;
     margin: 0 auto;
+    font-family: "Agdasima", sans-serif;
+    color: grey;
 }
 #vasarnap{
     width: 220px;
     margin: 0 auto;
+    font-family: "Agdasima", sans-serif;
+    margin-bottom: 90px;
+    color: grey;
 }
 #bal{
     width: 25%;
@@ -224,24 +250,43 @@ a:active{
     text-align: right;
     font-size: large;
     text-transform: uppercase;
+    font-family: "Agdasima", sans-serif;
+    font-weight: bold;
 }
 #jobb{
     width: 25%;
 }
 #jobb p{
     color: white;
-
-  
+    font-family: "Agdasima", sans-serif;
+    font-weight: bold;
+    
 }
+#jobb #kattide{
+    color:grey
+}
+#jobb a{
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+
 footer{
     background-color: #101010;
     color: white;
     text-align: center;
+    height: 100px;
 }
 footer hr{
     width: 800px;
     margin: auto;
+    margin-top: 0px;
 }
+footer p{
+    line-height: 5px;
+    margin-top: 20px;
+}
+
 .galeria_fo{
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -250,7 +295,7 @@ footer hr{
     grid-row-gap: 50px;
 }
 .galeria_fo{
-    color:white;
+    color:rgba(255, 255, 255, 0.849);
 }
 #galp1{
     grid-column-start: 2;
@@ -258,6 +303,8 @@ footer hr{
     grid-row-start: 4;
     grid-row-end: 5;
     text-align: center;
+    margin-top: 25px;
+    color: white;
 }
 #galp2{
     grid-column-start: 6;
@@ -265,6 +312,8 @@ footer hr{
     grid-row-start: 5;
     grid-row-end: 6;
     text-align: center;
+    margin-top: 25px;
+    color: white;
 }
 #galp3{
     grid-column-start: 2;
@@ -272,6 +321,8 @@ footer hr{
     grid-row-start: 7;
     grid-row-end: 7;
     text-align: center;
+    margin-top: 35px;
+    color: white;
 }
 #galp4{
     grid-column-start: 4;
@@ -279,6 +330,8 @@ footer hr{
     grid-row-start: 7;
     grid-row-end: 7;
     text-align: center;
+    margin-top: 35px;
+    color: white;
 }
 #galp5{
     grid-column-start: 6;
@@ -286,7 +339,13 @@ footer hr{
     grid-row-start: 7;
     grid-row-end: 7;
     text-align: center;
+    margin-bottom: 0;
+    height: fit-content;
+    margin-top: 48px;
+    color: white;
+
 }
+
 .galeria{
     width: 100%;
     height: 100%;
