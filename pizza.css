@@ -7,7 +7,7 @@ body{
 #fejlec{
     background-image: url(./imgs/header.jpg);
     height: 650px;
-    margin: auto;
+    
     margin-top: 0px ;
     padding-top: 0px;
     background-position-x: -250px;
@@ -232,11 +232,12 @@ a:active{
     width: 25%;
 }
 #jobb p{
-    color: #d0d0d0;
+    color: white;
     font-weight: bold;
+    font-size: larger;
 }
 #jobb #kattide{
-    color:grey
+    color:#d0d0d0
 }
 #jobb a{
     font-weight: bold;
@@ -358,4 +359,53 @@ footer p{
     grid-row-start: 6;
     grid-row-end: 8;
 }
-
+@media only screen and (max-width: 800px) {
+    #fejlec {
+      height: 400px;
+      background-position-x: -100px;
+      background-position-y: -50px;
+      background-position: center;
+    }
+    #tortszoveg{
+        margin-left: 20px;
+        width: 50%;
+        padding-right: 150px;
+    }
+    #tortcim{
+        width: 60%;
+    }
+    #menuszoveg{
+        margin: auto;
+        text-align: center;
+    }
+    #menu ul{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    #galp1{
+        margin-top: 15px;
+    }
+    #galp2{
+        margin-top: 0px;
+    }
+    #galp3{
+        margin-top: 0px;
+    }
+    #galp4{
+        margin-top: 15px;
+    }
+    #galp5{
+        margin-top: 15px;
+    }
+    #jobb{
+        margin-left: 20px;
+    }
+    #kozep{
+        margin-top: 300px;
+    }
+    footer hr{
+        width: 600px;
+        margin: auto;
+        margin-top: 0px;
+    }
+  }
