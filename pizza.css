@@ -359,7 +359,7 @@ footer p{
     grid-row-start: 6;
     grid-row-end: 8;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) and (min-width: 451px){
     #fejlec {
       height: 400px;
       background-position-x: -100px;
@@ -369,7 +369,7 @@ footer p{
     #tortszoveg{
         margin-left: 20px;
         width: 50%;
-        padding-right: 150px;
+        padding-right: 140px;
     }
     #tortcim{
         width: 60%;
@@ -397,6 +397,9 @@ footer p{
     #galp5{
         margin-top: 15px;
     }
+    #kozep p{
+        margin-top: 5px;
+    }
     #jobb{
         margin-left: 20px;
     }
@@ -407,5 +410,43 @@ footer p{
         width: 600px;
         margin: auto;
         margin-top: 0px;
+    }
+  }
+  @media only screen and (max-width: 450px) and (min-width: 350px){
+    #tortcim{
+        padding-top: 0px;
+        text-align: right;  
+    }
+    #tortszoveg{
+        width: 100%;
+        padding-right: 0px;
+        display: block;
+        font-size: larger ;
+        margin-top: 0px;
+    }
+    #tortenetunk{
+        height: 300px;
+
+        flex-direction: column;
+    }
+    #tortenetunk h1{
+        text-align: right;
+    }
+    #menu p{
+        margin: auto;
+        width: 250px;
+
+    }
+    #menu{
+        height: 500px;
+    }
+    #menu li{
+        width: 100px;
+    }
+    #menuszoveg p{
+        text-align: center;
+    }
+    .img1{
+        width: 400px;
     }
   }
