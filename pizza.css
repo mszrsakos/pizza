@@ -176,7 +176,7 @@ a:active{
     margin: 0 auto;
 }
 #nyitva{
-    width: 220px;
+    width: 240px;
     margin: auto;
     font-weight: bold;
     margin-top: 18px;
@@ -227,6 +227,7 @@ a:active{
     text-align: right;
     font-size: x-large;
     text-transform: uppercase;
+    
 }
 #jobb{
     width: 25%;
@@ -421,19 +422,24 @@ footer p{
     #tortcim{
         padding-top: 0px;
         text-align: right;  
+        margin-left: 150px;
     }
     #tortszoveg{
-        width: 100%;
+        width: 90%;
         padding-right: 0px;
         display: block;
         font-size: larger ;
         margin-top: 0px;
+        text-align: center justify;
     }
     #tortenetunk{
         height: 300px;
         flex-direction: column;
     }
     #tortenetunk h1{
+        text-align: right;
+    }
+    #tortenetunk h3{
         text-align: right;
     }
     #menu p{
@@ -450,39 +456,16 @@ footer p{
     #menuszoveg p{
         text-align: center;
     }
-    .img1{
-        width: 400px;
-    }
+
     .galeria_fo{
-        grid-template-columns: 100%;
+        display: block;
+       /*   grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 5vw);
+        grid-gap: 45px;
+        grid-row-gap: 50px;*/
+
     }
-    .img1{
-        grid-column-start: 1;
-        grid-row-start: 1;
-        grid-row-end: 5;
-    }
-    .img2{
-        grid-column-start: 1;
-        grid-column-end: 5;
-        grid-row-start: 4;
-        grid-row-end: 6;
-    }
-    .img3{
-        grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 5;
-        grid-row-end: 9;
-    }
-    .img4{
-        grid-column-start: 4;
-        grid-column-end: 6;
-        grid-row-start: 5;
-        grid-row-end: 8;
-    }
-    .img5{
-        grid-column-start: 6;
-        grid-column-end: 8;
-        grid-row-start: 6;
-        grid-row-end: 8;
+    #galp1{
+        
     }
   }
