@@ -150,6 +150,9 @@ a:active{
 .nyit_tart_keret #bal{
     margin-top: 20px;
 }
+.nyit_tart_keret #bal p{
+    line-height: 10px;
+}
 .nyit_tart_keret #kozep{
     margin-top: 20px;
 }
@@ -417,20 +420,34 @@ footer p{
         margin: auto;
         margin-top: 0px;
     }
+
   }
-  @media only screen and (max-width: 450px) and (min-width: 350px){
+@media only screen and (max-width: 600px){
+    .galeria_fo{
+        display: block;
+    }
+    #tortszoveg{
+        width: 400px;
+        padding-right: 50px;
+    }
+}
+
+  @media only screen and (max-width: 450px){
     #tortcim{
         padding-top: 0px;
         text-align: right;  
-        margin-left: 150px;
+        margin-left: 130px;
     }
     #tortszoveg{
         width: 90%;
         padding-right: 0px;
         display: block;
         font-size: larger ;
-        margin-top: 0px;
+        margin: 0px 0px 0px 20px;
         text-align: center justify;
+    }
+    #tortenetunk p{
+        margin-top: 0px;
     }
     #tortenetunk{
         height: 300px;
@@ -442,6 +459,9 @@ footer p{
     #tortenetunk h3{
         text-align: right;
     }
+    #foglalj{
+        margin: 0px 0px 0px 0px;
+    }
     #menu p{
         margin: auto;
         width: 250px;
@@ -452,20 +472,73 @@ footer p{
     }
     #menu li{
         width: 100px;
+        margin-top: 15px;
+        text-align: center;
+        display: inline-block;
     }
     #menuszoveg p{
         text-align: center;
     }
-
-    .galeria_fo{
-        display: block;
-       /*   grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(5, 5vw);
-        grid-gap: 45px;
-        grid-row-gap: 50px;*/
-
+    #menutart ul{
+        text-align: center;
+        display: inline-block;
     }
-    #galp1{
-        
+    .img1{
+        margin: 0px 10px 0px 10px;
+        width: 95%;
+    }
+    .img2{
+        margin: 0px 10px 0px 10px;
+        width: 95%;
+    }
+    .img3{
+        margin: 0px 10px 0px 10px;
+        width: 95%;
+    }
+    .img4{
+        margin: 0px 10px 0px 10px;
+        width: 95%;
+    }
+    .img5{
+        margin: 0px 10px 0px 10px;
+        width: 95%;
+    }
+
+
+
+    footer hr{
+        width: 90%;
     }
   }
+
+    #galp1{
+        position: relative;
+        top: -30px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #galp2{
+        position: relative;
+        top: -30px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #galp3{
+        position: relative;
+        top: -30px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #galp4{
+        position: relative;
+        top: -30px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #galp5{
+        position: relative;
+        top: -30px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
