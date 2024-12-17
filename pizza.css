@@ -59,7 +59,7 @@ body{
     width: 35%;
     color: white;
     margin: auto;
-    padding-right: 300px;
+    padding-right: 20%;
     
 }
 #tortenetunk h3{
@@ -174,7 +174,7 @@ a:active{
     width: 300px; 
 }
 #kozep hr{
-    width: 250px;
+    width: 80%;
     margin: 0 40% 0 40%; 
     margin: 0 auto;
 }
@@ -255,7 +255,7 @@ footer{
     height: 100px;
 }
 footer hr{
-    width: 800px;
+    width: 80%;
     margin: auto;
     margin-top: 0px;
 }
@@ -280,7 +280,7 @@ footer p{
     grid-row-start: 4;
     grid-row-end: 5;
     text-align: center;
-    margin-top: 25px;
+    margin-top: 10%;
     color: white;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -290,7 +290,7 @@ footer p{
     grid-row-start: 5;
     grid-row-end: 6;
     text-align: center;
-    margin-top: 25px;
+    margin-top: 20%;
     color: white;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -300,7 +300,7 @@ footer p{
     grid-row-start: 7;
     grid-row-end: 7;
     text-align: center;
-    margin-top: 35px;
+    margin-top: 20%;
     color: white;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -310,7 +310,7 @@ footer p{
     grid-row-start: 7;
     grid-row-end: 7;
     text-align: center;
-    margin-top: 35px;
+    margin-top: 25%;
     color: white;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -322,7 +322,7 @@ footer p{
     text-align: center;
     margin-bottom: 0;
     height: fit-content;
-    margin-top: 48px;
+    margin-top: 32%;
     color: white;
     font-family: 'Times New Roman', Times, serif;
 
@@ -365,7 +365,7 @@ footer p{
 }
 @media only screen and (max-width: 800px) {
     #fejlec {
-      height: 400px;
+      height: 500px;
       background-position-x: -100px;
       background-position-y: -50px;
       background-position: center;
@@ -387,23 +387,21 @@ footer p{
         padding-right: 40px;
     }
     #galp1{
-        margin-top: 15px;
         font-style: italic;
     }
     #galp2{
-        margin-top: 0px;
+        margin-top: 1%;
         font-style: italic;
     }
     #galp3{
-        margin-top: 0px;
+        margin-top: 0,5%;
         font-style: italic;
+        
     }
     #galp4{
-        margin-top: 15px;
         font-style: italic;
     }
     #galp5{
-        margin-top: 15px;
         font-style: italic;
     }
     #kozep p{
@@ -415,6 +413,10 @@ footer p{
     #kozep{
         margin-top: 300px;
     }
+    #kozep hr{
+        width: 100%;
+    }
+
     footer hr{
         width: 600px;
         margin: auto;
@@ -422,17 +424,22 @@ footer p{
     }
 
   }
-@media only screen and (max-width: 600px){
+  @media only screen and (min-width: 600px) and (max-width: 800px){
+    #galp3{
+        margin-top: 0%;
+    }
+    #galp5{
+        margin-top: 40%;
+    }
+    #tortszoveg{
+        padding-right: 10%;
+    }
+  }
+
+@media only screen and (min-width: 350px) and (max-width: 600px){
     .galeria_fo{
         display: block;
     }
-    #tortszoveg{
-        width: 400px;
-        padding-right: 50px;
-    }
-}
-
-  @media only screen and (max-width: 450px){
     #tortcim{
         padding-top: 0px;
         text-align: right;  
@@ -503,9 +510,6 @@ footer p{
         margin: 0px 10px 0px 10px;
         width: 95%;
     }
-
-
-
     footer hr{
         width: 90%;
     }
@@ -519,14 +523,15 @@ footer p{
     }
     #galp2{
         position: relative;
-        top: -30px;
+        top: -20px;
         left: 50%;
         transform: translate(-50%, -50%);
     }
     #galp3{
         position: relative;
-        top: -30px;
+        top: -20px;
         left: 50%;
+
         transform: translate(-50%, -50%);
     }
     #galp4{
