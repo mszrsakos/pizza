@@ -148,10 +148,10 @@ a:active{
     justify-content: center;
 }
 .nyit_tart_keret #bal{
-    margin-top: 20px;
+    margin-top: 2%;
 }
 .nyit_tart_keret #bal p{
-    line-height: 10px;
+    line-height: 100%;
 }
 .nyit_tart_keret #kozep{
     margin-top: 20px;
@@ -174,7 +174,7 @@ a:active{
     width: 300px; 
 }
 #kozep hr{
-    width: 80%;
+    width: 90%;
     margin: 0 40% 0 40%; 
     margin: 0 auto;
 }
@@ -363,7 +363,39 @@ footer p{
     grid-row-start: 6;
     grid-row-end: 8;
 }
-@media only screen and (max-width: 800px) {
+
+#galp1{
+    position: relative;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#galp2{
+    position: relative;
+    top: -20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#galp3{
+    position: relative;
+    top: -20px;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+#galp4{
+    position: relative;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#galp5{
+    position: relative;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@media only screen and (max-width: 1200px) and (min-width:800px) {
     #fejlec {
       height: 500px;
       background-position-x: -100px;
@@ -414,7 +446,7 @@ footer p{
         margin-top: 300px;
     }
     #kozep hr{
-        width: 100%;
+        width: 80%;
     }
 
     footer hr{
@@ -424,18 +456,47 @@ footer p{
     }
 
   }
-  @media only screen and (min-width: 600px) and (max-width: 800px){
+  @media only screen and (max-width: 950px) and (min-width: 850px){
+    #kozep hr{
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 950px) and (min-width: 800px){
+        #kozep hr{
+            width: 80%;
+        }
+  }
+  @media only screen and (min-width: 700px) and (max-width: 800px){
+    #galp2{
+        margin-top: 10%;
+    }
+    #galp3{
+        margin-top: 10%;
+    }
+    #galp5{
+        margin-top: 35%;
+    }
+    #tortszoveg{
+        padding-right: 10%;
+    }
+    #kozep hr{
+        width: 100%;
+    }
+  }
+@media only screen and (min-width: 600px) and (max-width: 700px){
     #galp3{
         margin-top: 0%;
     }
     #galp5{
         margin-top: 40%;
     }
-    #tortszoveg{
-        padding-right: 10%;
+    #kozep hr{
+        width:100%;
     }
-  }
-
+    footer hr{
+        width: 80%;
+    }
+}
 @media only screen and (min-width: 350px) and (max-width: 600px){
     .galeria_fo{
         display: block;
@@ -513,37 +574,33 @@ footer p{
     footer hr{
         width: 90%;
     }
+    .nyit_tart_keret{
+        display: block;
+    }
+    #bal{
+        width: 95%;
+        padding-top: 1%;
+        display: inline;
+    }
+    #kozep{
+        width: 95%;
+        text-align: left;
+        margin-left: 1%;
+    }
+    #kozep p{
+        margin-left: 1%;
+    }
+    #kozep hr{
+        width: 100%;
+    }
+    #nyitva{
+        margin-left: 1%;
+    }
+    #jobb{
+        width: 95%;
+        padding-bottom: 5%;
+        padding-right: 5%;
+    }
   }
 
-    #galp1{
-        position: relative;
-        top: -30px;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    #galp2{
-        position: relative;
-        top: -20px;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    #galp3{
-        position: relative;
-        top: -20px;
-        left: 50%;
-
-        transform: translate(-50%, -50%);
-    }
-    #galp4{
-        position: relative;
-        top: -30px;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    #galp5{
-        position: relative;
-        top: -30px;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
 
