@@ -174,7 +174,7 @@ a:active{
     width: 300px; 
 }
 #kozep hr{
-    width: 90%;
+    width: 60%;
     margin: 0 40% 0 40%; 
     margin: 0 auto;
 }
@@ -260,7 +260,7 @@ footer hr{
     margin-top: 0px;
 }
 footer p{
-    line-height: 5px;
+
     margin-top: 20px;
 }
 
@@ -322,7 +322,7 @@ footer p{
     text-align: center;
     margin-bottom: 0;
     height: fit-content;
-    margin-top: 32%;
+    margin-top: 30%;
     color: white;
     font-family: 'Times New Roman', Times, serif;
 
@@ -504,7 +504,7 @@ footer p{
     #tortcim{
         padding-top: 0px;
         text-align: right;  
-        margin-left: 130px;
+        margin-left: 60%;
     }
     #tortszoveg{
         width: 90%;
@@ -518,9 +518,12 @@ footer p{
         margin-top: 0px;
     }
     #tortenetunk{
-        height: 300px;
+        height: max-content;
         flex-direction: column;
     }
+
+
+
     #tortenetunk h1{
         text-align: right;
     }
@@ -552,23 +555,23 @@ footer p{
         display: inline-block;
     }
     .img1{
-        margin: 0px 10px 0px 10px;
+        margin: 0px 5px 0px 5px;
         width: 95%;
     }
     .img2{
-        margin: 0px 10px 0px 10px;
+        margin: 0px 5px 0px 5px;
         width: 95%;
     }
     .img3{
-        margin: 0px 10px 0px 10px;
+        margin: 0px 5px 0px 5px;
         width: 95%;
     }
     .img4{
-        margin: 0px 10px 0px 10px;
+        margin: 0px 5px 0px 5px;
         width: 95%;
     }
     .img5{
-        margin: 0px 10px 0px 10px;
+        margin: 0px 5px 0px 5px;
         width: 95%;
     }
     footer hr{
@@ -601,6 +604,37 @@ footer p{
         padding-bottom: 5%;
         padding-right: 5%;
     }
-  }
+    #galp1{
+        margin-top: 0%;
+    }
+    #galp2{
+        margin-top: 0%;
+    }
+    #galp3{
+        margin-top: 0%;
+    }
+    #galp4{
+        margin-top: 0%;
+    }
+    #galp5{
+        margin-top: 0%;
+    }
+    .nyit_tart_keret #bal p{
+        padding-top: 10%;
+        padding-right: 3%;
+    }
+    #kattide{
+        padding-left: 2%;
+    } 
+    #jobb p{
+        padding-left: 2%;
+    }
+    #jobb a{
+        padding-left: 2%;
+    }
+    #footer p{
+        height: max-content;
+    }
+}
 
 
