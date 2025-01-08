@@ -172,6 +172,7 @@ a:active{
     display: block;
     margin: 5px 0px 5px 0px;
     width: 300px; 
+    line-height: 25px;
 }
 #kozep hr{
     width: 60%;
@@ -431,7 +432,7 @@ footer p{
         font-style: italic;
     }
     #galp3{
-        margin-top: 0,5%;
+        margin-top: 15%;
         font-style: italic;
         
     }
@@ -462,13 +463,14 @@ footer p{
     }
 
   }
-  @media only screen and (max-width: 950px) and (min-width: 850px){
+  @media only screen and (max-width: 950px) and (min-width: 800px){
     #kozep hr{
-        width: 110%;
+        width: 90%;
     }
     #galp5{
         margin-top: 35%;
     }
+
 }
 
   @media only screen and (min-width: 700px) and (max-width: 800px){
@@ -485,7 +487,7 @@ footer p{
         padding-right: 10%;
     }
     #kozep hr{
-        width: 110%;
+        width: 100%;
     }
   }
 @media only screen and (min-width: 600px) and (max-width: 700px){
@@ -522,7 +524,8 @@ footer p{
         display: block;
         font-size: larger ;
         margin: 0px 0px 0px 20px;
-        text-align: center justify;
+        text-align: center;
+        text-align: justify;
     }
     #tortenetunk p{
         margin-top: 0px;
@@ -559,7 +562,9 @@ footer p{
     }
     #menuszoveg p{
         text-align: center;
+        text-align: justify;
         margin: auto;
+        width: 300px;
     }
     #menutart ul{
         text-align: center;
@@ -597,6 +602,7 @@ footer p{
         width: 95%;
         padding-top: 1%;
         display: inline;
+        font-size: x-large;
     }
     #kozep{
         width: 95%;
@@ -605,6 +611,7 @@ footer p{
     }
     #kozep p{
         margin-left: 1%;
+
     }
     #kozep hr{
         width: 100%;
