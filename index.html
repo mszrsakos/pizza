@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+    <script src="java.js"></script>
 
 
 </head>
@@ -19,15 +20,22 @@
     <div id="fokeret">
         <div id="fejlec">
             <h1>PIZZÉRIA</h1>
-            <ul>
-                <li><a href="#"> KAPCSOLAT</a></li>
-                <li> / </li>
-                <li><a href="#"> RÓLUNK</a></li>
-                <li> / </li>
-                <li><a href="#"> MENÜ</a></li>
-                <li> / </li>
-                <li><a href="#"> KEZDŐLAP</a></li>
-            </ul>
+            <div id="mySidepanel" class="sidepanel">
+                <ul>
+                <div>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                </div>
+                <li><a href="#">KAPCSOLAT</a></li>
+                <li class="perjel"> / </li>
+                <li><a href="#">RÓLUNK</a></li>
+                <li class="perjel"> / </li>
+                <li><a href="#">MENÜ</a></li>
+                <li class="perjel"> / </li>
+                <li><a href="#">KEZDŐLAP</a></li>
+                </ul>
+            </div>
+        <button class="openbtn" onclick="openNav()">&#9776; Toggle Sidepanel</button>
+
         </div>
 
         <div id="tortenetunk">

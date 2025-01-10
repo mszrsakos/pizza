@@ -77,11 +77,16 @@ body{
     float: right;
     color: white;
     padding: 5px; 
+    margin-top: 21.440;
 }
 #fejlec ul{
+    margin-top: 21.440;
+    padding-top: 20px;
     padding-right: 30px;
-    padding-top: 35px;
     float: right;
+    display: block;
+
+
 }
 a{
     text-decoration: none;
@@ -401,6 +406,12 @@ footer p{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+a.closebtn, button.openbtn{
+    visibility: hidden;
+}
+.sidepanel{
+    float: right;
+}
 @media only screen and (max-width: 1200px) and (min-width:800px) {
     #fejlec {
       height: 500px;
@@ -489,6 +500,66 @@ footer p{
     #kozep hr{
         width: 100%;
     }
+    .sidepanel {
+        height: 100%; /* Specify a height */
+        width: 20; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0;
+        right: 0;
+        background-color: #111; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+      }
+      
+
+      .sidepanel a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+      
+
+      .sidepanel a:hover {
+        color: #f1f1f1;
+      }
+      
+
+      .sidepanel .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      
+
+      .openbtn {
+        font-size: 20px;
+        cursor: pointer;
+        background-color: #111;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+      }
+      
+      .openbtn:hover {
+        background-color: #444;
+      }
+      a.closebtn, button.openbtn{
+        visibility: visible;
+    }
+    .perjel{
+        visibility: hidden;
+    }
+    #fejlec ul{
+        height: 100%;
+        width: 30%;
+    }
   }
 @media only screen and (min-width: 600px) and (max-width: 700px){
     #galp3{
@@ -503,6 +574,56 @@ footer p{
     footer hr{
         width: 80%;
     }
+    .sidepanel {
+        height: 250px; /* Specify a height */
+        width: 0; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0;
+        left: 0;
+        background-color: #111; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+      }
+      
+
+      .sidepanel a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+      
+
+      .sidepanel a:hover {
+        color: #f1f1f1;
+      }
+      
+
+      .sidepanel .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      
+
+      .openbtn {
+        font-size: 20px;
+        cursor: pointer;
+        background-color: #111;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+      }
+      
+      .openbtn:hover {
+        background-color: #444;
+      }
 }
 
 
@@ -659,6 +780,57 @@ footer p{
         height: max-content;
         padding: 0px 5px 0px 5px;
     }
+
+    .sidepanel {
+        height: 250px; /* Specify a height */
+        width: 0; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0;
+        left: 0;
+        background-color: #111; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+      }
+      
+
+      .sidepanel a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+      
+
+      .sidepanel a:hover {
+        color: #f1f1f1;
+      }
+      
+
+      .sidepanel .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      
+
+      .openbtn {
+        font-size: 20px;
+        cursor: pointer;
+        background-color: #111;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+      }
+      
+      .openbtn:hover {
+        background-color: #444;
+      }
 }
 
 
