@@ -79,12 +79,12 @@ body{
     padding: 5px; 
     margin-top: 21.440;
 }
-#fejlec ul{
+.fejlecul{
     margin-top: 21.440;
     padding-top: 20px;
-    padding-right: 30px;
+    padding-right: 20px;
     float: right;
-    display: block;
+    display: inline;
 
 
 }
@@ -502,7 +502,7 @@ a.closebtn, button.openbtn{
     }
     .sidepanel {
         height: 100%; /* Specify a height */
-        width: 20; /* 0 width - change this with JavaScript */
+        width: 40%; /* 0 width - change this with JavaScript */
         position: fixed; /* Stay in place */
         z-index: 1; /* Stay on top */
         top: 0;
@@ -512,7 +512,9 @@ a.closebtn, button.openbtn{
         padding-top: 60px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
       }
-      
+      #mySidepanel{
+        width: 0;
+      }
 
       .sidepanel a {
         padding: 8px 8px 8px 32px;
@@ -529,6 +531,94 @@ a.closebtn, button.openbtn{
       }
       
 
+      .sidepanel .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      
+
+      .openbtn {
+        font-size: 20px;
+        cursor: pointer;
+        background-color: #111;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        float: right;
+      }
+      
+      .openbtn:hover {
+        background-color: #444;
+      }
+      a.closebtn, button.openbtn{
+        visibility: visible;
+    }
+    button.openbtn{
+        margin: 41.440px 20px 0px 0px;
+    }
+    .perjel{
+        visibility: hidden;
+    }
+    .fejlecul{
+        height: 100%;
+        width: 30%;
+    }
+  }
+@media only screen and (min-width: 600px) and (max-width: 700px){
+    #galp2{
+        margin-top: 5%;
+    }
+    #galp3{
+        margin-top: 0%;
+    }
+    #galp5{
+        margin-top: 40%;
+    }
+    #kozep hr{
+        width:100%;
+    }
+    footer hr{
+        width: 80%;
+    }
+    .sidepanel {
+        height: 100%; /* Specify a height */
+        width: 0; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0;
+        right: 0;
+        background-color: #111; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+      }
+      
+      .perjel{
+        visibility: hidden;
+      }
+      .sidepanel a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+      button.openbtn{
+        float: right;
+        margin: 41.440px 20px 0px 0px;
+      }
+
+      .sidepanel a:hover {
+        color: #f1f1f1;
+      }
+      
+      #mySidepanel{
+        width: 0;
+      }
       .sidepanel .closebtn {
         position: absolute;
         top: 0;
@@ -553,77 +643,6 @@ a.closebtn, button.openbtn{
       a.closebtn, button.openbtn{
         visibility: visible;
     }
-    .perjel{
-        visibility: hidden;
-    }
-    #fejlec ul{
-        height: 100%;
-        width: 30%;
-    }
-  }
-@media only screen and (min-width: 600px) and (max-width: 700px){
-    #galp3{
-        margin-top: 0%;
-    }
-    #galp5{
-        margin-top: 40%;
-    }
-    #kozep hr{
-        width:100%;
-    }
-    footer hr{
-        width: 80%;
-    }
-    .sidepanel {
-        height: 250px; /* Specify a height */
-        width: 0; /* 0 width - change this with JavaScript */
-        position: fixed; /* Stay in place */
-        z-index: 1; /* Stay on top */
-        top: 0;
-        left: 0;
-        background-color: #111; /* Black*/
-        overflow-x: hidden; /* Disable horizontal scroll */
-        padding-top: 60px; /* Place content 60px from the top */
-        transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
-      }
-      
-
-      .sidepanel a {
-        padding: 8px 8px 8px 32px;
-        text-decoration: none;
-        font-size: 25px;
-        color: #818181;
-        display: block;
-        transition: 0.3s;
-      }
-      
-
-      .sidepanel a:hover {
-        color: #f1f1f1;
-      }
-      
-
-      .sidepanel .closebtn {
-        position: absolute;
-        top: 0;
-        right: 25px;
-        font-size: 36px;
-        margin-left: 50px;
-      }
-      
-
-      .openbtn {
-        font-size: 20px;
-        cursor: pointer;
-        background-color: #111;
-        color: white;
-        padding: 10px 15px;
-        border: none;
-      }
-      
-      .openbtn:hover {
-        background-color: #444;
-      }
 }
 
 
@@ -782,12 +801,12 @@ a.closebtn, button.openbtn{
     }
 
     .sidepanel {
-        height: 250px; /* Specify a height */
+        height: 100%; /* Specify a height */
         width: 0; /* 0 width - change this with JavaScript */
         position: fixed; /* Stay in place */
         z-index: 1; /* Stay on top */
         top: 0;
-        left: 0;
+        right: 0;
         background-color: #111; /* Black*/
         overflow-x: hidden; /* Disable horizontal scroll */
         padding-top: 60px; /* Place content 60px from the top */
@@ -830,6 +849,19 @@ a.closebtn, button.openbtn{
       
       .openbtn:hover {
         background-color: #444;
+      }
+      a.closebtn, button.openbtn{
+        visibility: visible;
+    }
+    .perjel{
+        visibility: hidden;
+    }
+    button.openbtn{
+        float: right;
+        margin: 41.440px 20px 0px 0px;
+    }
+    #mySidepanel{
+        width: 0;
       }
 }
 
